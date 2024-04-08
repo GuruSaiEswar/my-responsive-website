@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.topbar {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+.pnxlogo{
+   flex: 1.5;
+}
+.logo{
+    width: 60px;
+    height: auto;
+}
+.two{  
+    flex: 4;
+    display: flex;
+    margin-top: 20px;
+}
+.one {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: space-between;
+    padding: 0 14px;
+    cursor: pointer;
+    margin-left: auto;
+}
+.image{
+    flex: 1;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.icon {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    justify-content: space-around;
+    padding: 0 5px;
+}
+.hero{
+    height: 700px;
+   background-size: cover;
+   min-width: 100%;
+}
+.btn{
+    color: white;
+    background: linear-gradient(to right, black, gray);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: relative;
+    bottom: 110px;
+    left: 80px;
+    height: 60px;
+    width: 25%;
+    font-size: 30px;
+}
+.secdiv {
+    margin-top: -70px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    height: 150px; 
+    background-color:rgb(190, 190, 190);
+}
+.divpara {
+    margin-right:50px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.thirddiv{
+    background-color: rgba(214, 211, 211, 0.541);
+}
+.headLine{
+  padding: 60px;
+}
+.thirdimg{
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+}
+
+.btmimg1{
+    width: 350px;
+    height: auto;
+}
+#rooms{
+    text-align: left;
+    padding: 0 20px 0 0;
+}
+#dining{
+    text-align: center;
+    padding: 0 20px 0;
+}
+#pool{
+    text-align: right;
+    padding: 0 0 0 20px;
+}
+#pools{
+    margin-left: 295px;
+}
+.shdng{
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sdec{
+    padding: 0 0 30px 0;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.last{
+    background-color: black;
+    color: white;
+    padding: 15px 50px;
+    border: none;
+    margin-top: 20px;
+}
+
+  @media only screen and (max-width: 425px) {
+            .topbar {
+                display: inline-block;
+                height: 50px;
+                text-align: center;
+            }
+            .logo{
+                height: 25px;
+                width: 25px;
+                margin-top: 15px;
+            }
+            .two {
+                text-align: center;
+                font-size: 5px;
+                margin-left: 40%;
+            }
+            .one {
+                display: block;
+                font-size: 10px;
+                padding:  0 5px ;
+            
+            }
+
+            .image {
+                text-align: center;
+                display: inline-block;
+                margin-left: auto;
+            }
+            .icon{
+                height: 15px;
+                min-width: 15px;
+            }
+
+            .hero {
+                width: 100%;
+                height: auto;
+            }
+            .btn{
+                left: 30%;
+                bottom:110x;
+                transform: translateX(-50%);
+                width: 30%;
+                height: 35px;
+                font-size: 20px;
+            }
+
+            .secdiv {
+                display: flex;
+                flex-direction: column;
+                width: auto;
+                height: auto;
+                padding-left: 12%;
+            }
+
+            .divpara {
+                margin-top: 50px;
+                display: flex;
+            }
+            .btming{
+                display: block;
+                text-align: center;
+            }
+            .headLine{
+                font-size: 10px;
+                padding: 15px;
+                text-align: center;
+            }
+            .thirddiv{
+                height: auto;
+            }
+            .thirdimg{
+                display: block;
+                height: 500px;
+            }
+            #rooms,#dining,#pool{
+                text-align: center;
+                margin: 0px;
+            }
+            #pools{
+                margin-right: 40%;
+            }
+            .last{
+                margin-bottom: 10px;
+            }
+        } 
+
+
+@media only screen and (max-width: 768px) {
+    .topbar {
+        height: auto;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+        display: block;
+    }
+    .one{
+        margin: 0;
+        padding: 0;
+    }
+    .logo{
+        margin-left: 3%;
+    }
+    .two {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .image {
+        margin-left: 4%;
+        margin-right: auto;
+    }
+    .hero {
+        height:auto; 
+        width: 100%;
+    }
+
+    .btn {
+        left: 30%;
+        bottom:110x;
+        transform: translateX(-50%);
+        width: 30%;
+        height: 35px;
+        font-size: 20px;
+    }
+    .secdiv {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        height: auto;
+    }
+    #room{
+        margin-top: 10%;
+    }
+    .divpara {
+        margin: 20px 0;
+        flex: 0 0 auto;
+        flex-direction: column;
+    }
+    .thirdimg {
+        flex-direction: column;
+    }
+    .btmimg1 {
+        width: 80%;
+        margin-left: 10%;
+    }
+    #rooms, #dining, #pool {
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+    #rooms{
+        margin-top: 28%;
+    }
+    #pools {
+        margin-left: 45%;
+    }
+    .last {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1050px) {
+    .topbar {
+        height: auto;
+        flex-direction: row;
+        align-items: center;
+    }
+    .two {
+        flex-direction: row;
+        align-items: center;
+        width: 90%;
+        margin-top: 10px;
+        margin-left: 18%;
+    }
+    .pnxlogo{
+        max-width: fit-content;
+    }
+    .one{
+            margin: 0;
+            padding: 5px;
+    }
+    .image {
+        margin-left: 25px;
+    }
+    .hero {
+        height: 500px; 
+    }
+    .btn {
+        left: 30%;
+        bottom:110x;
+        transform: translateX(-50%);
+        width: 25%;
+        height: 35px;
+        font-size: 20px;
+    }
+    .secdiv {
+        flex-direction: row;
+        align-items: center;
+        padding: 20px;
+        height: auto;
+    }
+    .divpara {
+        margin: 20px 0;
+    }
+    .thirdimg {
+        flex-direction: column;
+    }
+    .btmimg1 {
+        width: 80%;
+        margin-left: 10%;
+    }
+    #room{
+        margin-top: 10%;
+    }
+    #rooms, #dining, #pool {
+        text-align: center;
+        padding: 0;
+        margin-left: 0;
+    }
+    #pools {
+        margin-left: 50%;
+    }
+    .last {
+        width: 50%;
+        margin: 20px;
+    }
+}
+
+
+
+
+
+
